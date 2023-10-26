@@ -8,7 +8,7 @@ Protocol specifications:
     b. Return: “!200”  
 2. Request: GET < key >  
      a) Returns the value corresponding to the key given  
-           i) Return: “!200 <value>”    
+               i) Return: “!200 <value>”    
       b) If <key> does not exist, return: “!400”  
 3. Request: DEL <key>  
      a) If <key> exists, delete it from your store. Specifically, any subsequent GET query must return   
