@@ -3,7 +3,7 @@ Created 2 key-value store servers with a load balancer that can be accessed over
 Milestones / functionality:
 Protocol specifications:
 
-1. Request: PUT [<key>] <value>  
+1. Request: PUT [< key >] <value>  
     a. Stores the key and value mapping  
     b. Return: “!200”  
 2. Request: GET <key>  
